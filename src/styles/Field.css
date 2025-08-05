@@ -1,0 +1,16 @@
+.field label {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 1rem;
+    color: gray;
+}
+
+.field textarea {
+    resize: vertical;
+}
+
+.field textarea, .field input {
+    font-family: Arial, Helvetica, sans-serif, system-ui;
+    font-size: 0.9rem;
+}

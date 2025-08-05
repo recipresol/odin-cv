@@ -1,0 +1,16 @@
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.title-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.resume-section h3, .resume-section p {
+    font-size: 16px;
+}

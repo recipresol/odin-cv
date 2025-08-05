@@ -1,0 +1,40 @@
+.section {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.section-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.submit-button, .delete-button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.submit-button:disabled {
+    border: 1px solid lightgray;
+    color: darkgray;
+}
+
+.delete-button {
+    background-color: rgb(180, 0, 0);
+    border: 1px solid maroon;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: rgb(234, 0, 0);
+}
+
+.delete-button:active {
+    background-color: rgb(255, 0, 0);
+}
